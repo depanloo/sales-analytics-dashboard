@@ -37,4 +37,4 @@ This project analyzes sales performance and profitability for a retail/wholesale
 ## 🛠️ Tools & Technologies
 - **Tableau (Dashboard):** Interactive sales visualization, regional filters, and metric trends.
 
-[See full project at: ](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria)
+See full project at [my Tableau Public](https://public.tableau.com/views/SalesAnalyticsDashboard_17931092775800/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
