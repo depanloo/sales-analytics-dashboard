@@ -2,39 +2,26 @@
 
 ![Result](assets/salesanalyticsdashboard.png)
 
-## 📝 Project Description
-This project analyzes sales performance and profitability for a retail/wholesale business using historical transaction data. The analysis focuses on evaluating Key Performance Indicators (KPIs), monthly sales trends, regional profitability distribution, and identifying top-performing product categories as well as those eroding profit margins.
+## 1. Business Context
+This project analyzes sales performance and profitability for a retail/wholesale business. The primary objective is to evaluate Key Performance Indicators (KPIs), understand monthly sales trends, map regional profitability, and identify both top-performing product categories and those eroding profit margins.
 
-## 🎯 Key Performance Indicators (KPIs)
-- **Total Sales:** $1,120,607.33
-- **Total Profit:** $106,937.50
-- **Average Profit Margin:** ~9.54%
-- **Total Transactions:** 5,111 (Unique Order IDs)
-- **Total Quantity Sold:** 19,353 units
+## 2. Data & Process
+* **Data Source:** Publicly Available Educational Retail Dataset.
+* **Dataset Size:** 5,111 unique transactions totaling 19,353 units sold.
+* **Data Preparation:** The dataset was provided in a pre-cleaned and structured format. The primary focus of this phase involved data validation, data type formatting, and directly ingesting the structured data into Tableau for modeling and visualization.
 
-## 📈 Key Insights & Main Findings
+## 3. Analysis & Key Insights
+* **Regional Performance:** The **West** region generated the highest revenue ($354,622.37 or 31.6% of total sales). However, despite solid sales volume, **Texas** and **Illinois** were the most unprofitable states, incurring net losses of -$13,185.69 and -$12,335.29.
+* **Product Margins:** **Office Supplies** (17.6%) and **Technology** (19.7%) maintained healthy margins. Conversely, the **Furniture** category achieved the highest sales volume ($638,814.62) but suffered a severely compressed profit margin of **2.8%**, driven by heavy losses in Tables and Bookcases.
+* **Seasonality:** The business exhibits strong seasonality during **Quarter 4 (Q4)**, peaking in November and December.
 
-### 1. Regional Performance & Customer Segments
-- **Top Region:** The **West** region generated the highest revenue, contributing **$354,622.37** (31.6% of total sales).
-- **Dominant Segment:** The **Consumer** segment accounted for more than half of total revenue at **$582,163.56** (51.9%).
-- **Regional Profitability Issues:** Despite solid sales volume, **Texas** and **Illinois** were the two most unprofitable states, incurring net losses of -$13,185.69 and -$12,335.29, respectively.
+## 4. Business Recommendations
+Based on the analysis, here are the strategic decisions recommended for the business:
+1. **Revise Furniture Pricing:** Eliminate or scale back aggressive discounting on *Tables* and *Bookcases* to restore positive margins.
+2. **Operational Audit:** Investigate logistics costs and discount policies in *Texas* and *Illinois* to mitigate ongoing profit leaks.
+3. **Peak Season Preparation:** Optimize inventory levels and launch marketing campaigns by late Q3 to capture peak demand in Q4.
+4. **Product Bundling:** Pair high-volume Furniture with high-margin products (e.g., Copiers or Paper) to boost overall shopping basket margins.
 
-### 2. Product Performance & Margins
-- **Star Categories:** **Office Supplies** and **Technology** maintained strong, healthy profit margins at 17.6% and 19.7%, respectively.
-- **Furniture Category Anomaly:** Although Furniture achieved the highest sales volume ($638,814.62), its profit margin was severely compressed at **2.8%**. This was driven by heavy losses in the **Tables** (-$12,387.06) and **Bookcases** (-$3,755.86) sub-categories.
-- **Most Profitable Sub-Categories:** **Paper** (42.7% margin) and **Copiers** (35.2% margin) yielded the highest efficiency ratios.
-
-### 3. Sales Trends & Seasonality
-- The business exhibits strong seasonality during **Quarter 4 (Q4)**. Peak sales occurred in **November** ($180,237) and **December** ($176,709), with December also producing the highest net profit.
-- The **low season** occurred at the start of the year in **January** and **February**.
-
-## 💡 Strategic Recommendations
-1. **Revise Furniture Pricing & Discount Strategy:** Eliminate or scale back aggressive discounting on *Tables* and *Bookcases* to restore positive margins across the Furniture category.
-2. **Operational Audit for Unprofitable States:** Investigate logistics costs and discount policies in *Texas, Illinois,* and *Pennsylvania* to mitigate ongoing profit leaks.
-3. **Prepare for Peak Season:** Optimize inventory levels and launch marketing campaigns by late Q3 (August/September) to capture peak demand in Q4.
-4. **Implement Product Bundling:** Pair high-volume products (Furniture) with high-margin products (*Copiers*, *Accessories*, or *Paper*) to boost overall shopping basket margins.
-
-## 🛠️ Tools & Technologies
-- **Tableau (Dashboard):** Interactive sales visualization, regional filters, and metric trends.
-
-See full project at [my Tableau Public](https://public.tableau.com/views/SalesAnalyticsDashboard_17931092775800/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+## 5. Documentation & Dashboard
+* **Tool Used:** Tableau
+* **Live Dashboard:** [View full interactive dashboard on Tableau Public](https://public.tableau.com/views/SalesAnalyticsDashboard_17931092775800/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
